@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foodsparadise:cookie_dough"
+    },
+    {
+      "item": "foodsparadise:cookie_form"
+    }
+  ],
+  "result": {
+    "item": "foodsparadise:raw_cookie"
+  }
+}
