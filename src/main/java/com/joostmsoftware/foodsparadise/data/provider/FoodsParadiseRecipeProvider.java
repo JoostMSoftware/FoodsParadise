@@ -1,11 +1,9 @@
 package com.joostmsoftware.foodsparadise.data.provider;
 
-import com.joostmsoftware.foodsparadise.data.recipes.FoodsParadiseShapedRecipes;
-import com.joostmsoftware.foodsparadise.data.recipes.FoodsParadiseShapelessRecipes;
-import com.joostmsoftware.foodsparadise.data.recipes.FoodsParadiseVanillaRecipes;
+import com.joostmsoftware.foodsparadise.data.recipes.*;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
-import net.minecraft.data.server.recipe.*;
+import net.minecraft.data.server.recipe.RecipeJsonProvider;
 
 import java.util.function.Consumer;
 
