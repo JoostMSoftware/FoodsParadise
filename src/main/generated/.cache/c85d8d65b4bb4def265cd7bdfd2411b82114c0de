@@ -1,13 +1,13 @@
-// 1.19.4	2023-05-20T17:53:52.1638333	Foods Paradise/Model Definitions
+// 1.19.4	2023-05-20T18:05:15.908674	Foods Paradise/Model Definitions
 23be1981a73663621efa91559f4b12dee94964a4 assets\foodsparadise\models\item\cookie_form.json
 5f33cbc54f2db410a6dc6f914a388d5625356720 assets\foodsparadise\models\item\chocolate_chip_cookie.json
 012f7c8fe9fcf5615deb90c0ea5003c229552482 assets\foodsparadise\models\item\chocolate_bits.json
+2706136e231f83d1bc2966b9e5df304e1ceac2a1 assets\foodsparadise\models\item\raw_chocolate_chip_cookie_dough.json
 0e9d626b5c7e754e40663a3a823ee8ee7c01ff36 assets\foodsparadise\models\item\raw_cookie.json
-b7471439fb897795185c5832cfce2eb9d5e379d4 assets\foodsparadise\models\item\cookie_dough.json
 f4b37e1f79d4dd88231a839a755b06ef893e23f5 assets\foodsparadise\models\item\wheat_flour.json
-60f10ac9cff5b6f0bb1eeadfcf922ab8f868e82e assets\foodsparadise\models\item\chocolate_chip_cookie_dough.json
 418e415b75ea42c437c6171ce5ff8ffd7956b3b5 assets\foodsparadise\models\item\crusher.json
 5472b78928901375ab6db21fa0e9fdb9b057a8a3 assets\foodsparadise\models\item\cookie.json
 28cd71cace9e360db1f84018321d6a884b31f69a assets\foodsparadise\models\item\raw_chocolate_chip_cookie.json
-cca601f3b6e5f6fe5d1be3a039de696cdd193ad1 assets\foodsparadise\models\item\roasted_cocoa_beans.json
+c1d8612543e5a51a41aa04b61a992ec310004a46 assets\foodsparadise\models\item\raw_cookie_dough.json
 e45fe646a7fb5d181d51e1be0a9163139bdcb2aa assets\foodsparadise\models\item\chocolate.json
+cca601f3b6e5f6fe5d1be3a039de696cdd193ad1 assets\foodsparadise\models\item\roasted_cocoa_beans.json

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_cookie_dough": {
+    "has_raw_cookie_dough": {
       "conditions": {
         "items": [
           {
             "items": [
-              "foodsparadise:cookie_dough"
+              "foodsparadise:raw_cookie_dough"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_cookie_dough",
+      "has_raw_cookie_dough",
       "has_the_recipe"
     ]
   ],

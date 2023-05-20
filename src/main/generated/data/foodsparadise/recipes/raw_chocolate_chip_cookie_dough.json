@@ -3,13 +3,13 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "foodsparadise:cookie_dough"
+      "item": "foodsparadise:raw_cookie_dough"
     },
     {
       "item": "foodsparadise:chocolate_bits"
     }
   ],
   "result": {
-    "item": "foodsparadise:chocolate_chip_cookie_dough"
+    "item": "foodsparadise:raw_chocolate_chip_cookie_dough"
   }
 }

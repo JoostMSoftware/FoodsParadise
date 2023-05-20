@@ -18,23 +18,23 @@ public class FoodsParadiseShapelessRecipes {
                 .criterion(RecipeProvider.hasItem(FoodsParadiseItems.ROASTED_COCOA_BEANS), RecipeProvider.conditionsFromItem(FoodsParadiseItems.ROASTED_COCOA_BEANS))
                 .offerTo(exporter);
 
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, FoodsParadiseItems.CHOCOLATE_CHIP_COOKIE_DOUGH)
-                .input(FoodsParadiseItems.COOKIE_DOUGH)
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, FoodsParadiseItems.RAW_CHOCOLATE_CHIP_COOKIE_DOUGH)
+                .input(FoodsParadiseItems.RAW_COOKIE_DOUGH)
                 .input(FoodsParadiseItems.CHOCOLATE_BITS)
-                .criterion(RecipeProvider.hasItem(FoodsParadiseItems.COOKIE_DOUGH), RecipeProvider.conditionsFromItem(FoodsParadiseItems.COOKIE_DOUGH))
+                .criterion(RecipeProvider.hasItem(FoodsParadiseItems.RAW_COOKIE_DOUGH), RecipeProvider.conditionsFromItem(FoodsParadiseItems.RAW_COOKIE_DOUGH))
                 .criterion(RecipeProvider.hasItem(FoodsParadiseItems.CHOCOLATE_BITS), RecipeProvider.conditionsFromItem(FoodsParadiseItems.CHOCOLATE_BITS))
                 .offerTo(exporter);
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, FoodsParadiseItems.RAW_COOKIE)
-                .input(FoodsParadiseItems.COOKIE_DOUGH)
+                .input(FoodsParadiseItems.RAW_COOKIE_DOUGH)
                 .input(FoodsParadiseItems.COOKIE_FORM)
-                .criterion(RecipeProvider.hasItem(FoodsParadiseItems.COOKIE_DOUGH), RecipeProvider.conditionsFromItem(FoodsParadiseItems.COOKIE_DOUGH))
+                .criterion(RecipeProvider.hasItem(FoodsParadiseItems.RAW_COOKIE_DOUGH), RecipeProvider.conditionsFromItem(FoodsParadiseItems.RAW_COOKIE_DOUGH))
                 .offerTo(exporter);
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, FoodsParadiseItems.RAW_CHOCOLATE_CHIP_COOKIE)
-                .input(FoodsParadiseItems.CHOCOLATE_CHIP_COOKIE_DOUGH)
+                .input(FoodsParadiseItems.RAW_CHOCOLATE_CHIP_COOKIE_DOUGH)
                 .input(FoodsParadiseItems.COOKIE_FORM)
-                .criterion(RecipeProvider.hasItem(FoodsParadiseItems.CHOCOLATE_CHIP_COOKIE_DOUGH), RecipeProvider.conditionsFromItem(FoodsParadiseItems.CHOCOLATE_CHIP_COOKIE_DOUGH))
+                .criterion(RecipeProvider.hasItem(FoodsParadiseItems.RAW_CHOCOLATE_CHIP_COOKIE_DOUGH), RecipeProvider.conditionsFromItem(FoodsParadiseItems.RAW_CHOCOLATE_CHIP_COOKIE_DOUGH))
                 .offerTo(exporter);
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, FoodsParadiseItems.CHOCOLATE_BITS)

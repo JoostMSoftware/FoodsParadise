@@ -22,8 +22,8 @@ public class FoodsParadiseItems {
 
     // Foods
     public static Item CHOCOLATE_CHIP_COOKIE = new FoodItem(new Item.Settings(), new Food(3, 0.2f));
-    public static Item CHOCOLATE_CHIP_COOKIE_DOUGH = new FoodItem(new Item.Settings(), new Food(2, 0.1f));
-    public static FoodItem COOKIE_DOUGH = new FoodItem(new Item.Settings(), new Food(1, 0.1f));
+    public static Item RAW_CHOCOLATE_CHIP_COOKIE_DOUGH = new FoodItem(new Item.Settings(), new Food(2, 0.1f));
+    public static FoodItem RAW_COOKIE_DOUGH = new FoodItem(new Item.Settings(), new Food(1, 0.1f));
     public static FoodItem RAW_COOKIE = new FoodItem(new Item.Settings(), new Food(1, 0.1f));
     public static FoodItem COOKIE = new FoodItem(new Item.Settings(), new Food(1, 0.1f));
     public static FoodItem RAW_CHOCOLATE_CHIP_COOKIE = new FoodItem(new Item.Settings(), new Food(1, 0.1f));
@@ -37,10 +37,10 @@ public class FoodsParadiseItems {
 
     static {
         ITEMS.put("chocolate_chip_cookie", CHOCOLATE_CHIP_COOKIE);
-        ITEMS.put("chocolate_chip_cookie_dough", CHOCOLATE_CHIP_COOKIE_DOUGH);
+        ITEMS.put("raw_chocolate_chip_cookie_dough", RAW_CHOCOLATE_CHIP_COOKIE_DOUGH);
         ITEMS.put("chocolate", CHOCOLATE);
         ITEMS.put("chocolate_bits", CHOCOLATE_BITS);
-        ITEMS.put("cookie_dough", COOKIE_DOUGH);
+        ITEMS.put("raw_cookie_dough", RAW_COOKIE_DOUGH);
         ITEMS.put("cookie_form", COOKIE_FORM);
         ITEMS.put("crusher", CRUSHER);
         ITEMS.put("wheat_flour", WHEAT_FLOUR);

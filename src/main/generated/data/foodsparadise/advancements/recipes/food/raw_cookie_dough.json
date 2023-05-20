@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "foodsparadise:cookie_dough"
+        "recipe": "foodsparadise:raw_cookie_dough"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "foodsparadise:cookie_dough"
+      "foodsparadise:raw_cookie_dough"
     ]
   }
 }

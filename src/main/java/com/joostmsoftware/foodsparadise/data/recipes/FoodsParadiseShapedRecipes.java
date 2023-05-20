@@ -19,7 +19,7 @@ public class FoodsParadiseShapedRecipes {
                 .criterion(RecipeProvider.hasItem(Items.IRON_INGOT), RecipeProvider.conditionsFromItem(Items.IRON_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.FOOD, FoodsParadiseItems.COOKIE_DOUGH)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.FOOD, FoodsParadiseItems.RAW_COOKIE_DOUGH)
                 .pattern("AAA")
                 .pattern(" X ")
                 .pattern("YZY")
