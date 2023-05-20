@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "foodsparadise:chocolate"
+    },
+    {
+      "item": "foodsparadise:crusher"
+    }
+  ],
+  "result": {
+    "item": "foodsparadise:chocolate_bits"
+  }
+}

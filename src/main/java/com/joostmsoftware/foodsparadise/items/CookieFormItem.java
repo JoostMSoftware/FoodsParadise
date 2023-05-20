@@ -6,6 +6,6 @@ import org.jetbrains.annotations.NotNull;
 public class CookieFormItem extends DamageableCraftingItem {
 
     public CookieFormItem(@NotNull Settings settings) {
-        super(settings.maxCount(1).maxDamageIfAbsent(20));
+        super(settings.maxCount(1).maxDamageIfAbsent(100));
     }
 }

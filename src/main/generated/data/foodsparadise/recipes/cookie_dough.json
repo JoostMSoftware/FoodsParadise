@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "foodsparadise:wheat_flower"
+    },
+    "X": {
+      "item": "minecraft:sugar"
+    },
+    "Y": {
+      "item": "minecraft:egg"
+    },
+    "Z": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "pattern": [
+    "AAA",
+    " X ",
+    "YZY"
+  ],
+  "result": {
+    "item": "foodsparadise:cookie_dough"
+  },
+  "show_notification": true
+}

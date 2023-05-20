@@ -1,18 +1,6 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_chocolate_bits": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "foodsparadise:chocolate_bits"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_cookie_dough": {
       "conditions": {
         "items": [
@@ -27,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "foodsparadise:chocolate_chip_cookie_dough"
+        "recipe": "foodsparadise:cookie"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -35,13 +23,12 @@
   "requirements": [
     [
       "has_cookie_dough",
-      "has_chocolate_bits",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "foodsparadise:chocolate_chip_cookie_dough"
+      "foodsparadise:cookie"
     ]
   }
 }
