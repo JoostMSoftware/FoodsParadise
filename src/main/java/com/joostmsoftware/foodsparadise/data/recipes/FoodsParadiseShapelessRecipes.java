@@ -11,13 +11,6 @@ import java.util.function.Consumer;
 
 public class FoodsParadiseShapelessRecipes {
     public static void initialiseRecipes(Consumer<RecipeJsonProvider> exporter) {
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, FoodsParadiseItems.CHOCOLATE)
-                .input(Items.SUGAR)
-                .input(FoodsParadiseItems.COCOA_POWDER)
-                .input(Items.MILK_BUCKET)
-                .criterion(RecipeProvider.hasItem(FoodsParadiseItems.COCOA_POWDER), RecipeProvider.conditionsFromItem(FoodsParadiseItems.COCOA_POWDER))
-                .offerTo(exporter);
-
         ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, FoodsParadiseItems.RAW_CHOCOLATE_CHIP_COOKIE_DOUGH)
                 .input(FoodsParadiseItems.RAW_COOKIE_DOUGH)
                 .input(FoodsParadiseItems.CHOCOLATE_BITS)

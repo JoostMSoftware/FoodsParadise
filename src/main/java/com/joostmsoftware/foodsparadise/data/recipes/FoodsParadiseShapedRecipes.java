@@ -29,5 +29,16 @@ public class FoodsParadiseShapedRecipes {
                 .input('A', FoodsParadiseItems.WHEAT_FLOUR)
                 .criterion(RecipeProvider.hasItem(Items.IRON_INGOT), RecipeProvider.conditionsFromItem(Items.IRON_INGOT))
                 .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.FOOD, FoodsParadiseItems.CHOCOLATE)
+                .pattern("A A")
+                .pattern(" X ")
+                .pattern("Z Z")
+                .input('Z', Items.SUGAR)
+                .input('A', FoodsParadiseItems.COCOA_POWDER)
+                .input('X', Items.MILK_BUCKET)
+                .criterion(RecipeProvider.hasItem(FoodsParadiseItems.COCOA_POWDER), RecipeProvider.conditionsFromItem(FoodsParadiseItems.COCOA_POWDER))
+                .offerTo(exporter);
+
     }
 }
