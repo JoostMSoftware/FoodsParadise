@@ -16,6 +16,11 @@ repositories {
 		name 'JoostMSoftware'
 		url 'https://repsy.io/mvn/joostmsoftware/joostmsoftware'
 	}
+
+	maven {
+		name = "TerraformersMC"
+		url = "https://maven.terraformersmc.com/"
+	}
 }
 
 dependencies {
@@ -29,6 +34,9 @@ dependencies {
 
 	modImplementation "com.joostmsoftware:JoostMLib:${project.joostmlib_version}"
 	include "com.joostmsoftware:JoostMLib:${project.joostmlib_version}"
+
+	modCompileOnly "dev.emi:emi:${emi_version}:api"
+	modLocalRuntime "dev.emi:emi:${emi_version}"
 }
 
 loom {

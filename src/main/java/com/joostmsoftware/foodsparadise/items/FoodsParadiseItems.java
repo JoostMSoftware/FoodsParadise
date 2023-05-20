@@ -21,6 +21,7 @@ public class FoodsParadiseItems {
     public static Item CHOCOLATE_CHIP_COOKIE_DOUGH = new FoodItem(new Item.Settings(), new Food(2, 0.1f));
     public static FoodItem COOKIE_DOUGH = new FoodItem(new Item.Settings(), new Food(1, 0.1f));
     public static FoodItem RAW_COOKIE = new FoodItem(new Item.Settings(), new Food(1, 0.1f));
+    public static FoodItem RAW_CHOCOLATE_CHIP_COOKIE = new FoodItem(new Item.Settings(), new Food(1, 0.1f));
     public static FoodItem CHOCOLATE = new FoodItem(new Item.Settings(), new Food(1, 0.1f));
     public static FoodItem ROASTED_COCOA_BEANS = new FoodItem(new Item.Settings(), new Food(1, 0.1f));
 
@@ -35,6 +36,7 @@ public class FoodsParadiseItems {
         ITEMS.put("cookie_dough", COOKIE_DOUGH);
         ITEMS.put("cookie_form", COOKIE_FORM);
         ITEMS.put("raw_cookie", RAW_COOKIE);
+        ITEMS.put("raw_chocolate_chip_cookie", RAW_CHOCOLATE_CHIP_COOKIE);
         ITEMS.put("roasted_cocoa_beans", ROASTED_COCOA_BEANS);
     }
 

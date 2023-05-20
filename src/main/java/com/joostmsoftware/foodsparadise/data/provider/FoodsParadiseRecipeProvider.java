@@ -31,6 +31,19 @@ public class FoodsParadiseRecipeProvider extends FabricRecipeProvider {
                 .criterion(RecipeProvider.hasItem(FoodsParadiseItems.COOKIE_DOUGH), RecipeProvider.conditionsFromItem(FoodsParadiseItems.COOKIE_DOUGH))
                 .offerTo(exporter);
 
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, FoodsParadiseItems.RAW_COOKIE)
+                .input(FoodsParadiseItems.COOKIE_DOUGH)
+                .input(FoodsParadiseItems.COOKIE_FORM)
+                .criterion(RecipeProvider.hasItem(FoodsParadiseItems.COOKIE_DOUGH), RecipeProvider.conditionsFromItem(FoodsParadiseItems.COOKIE_DOUGH))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, FoodsParadiseItems.RAW_CHOCOLATE_CHIP_COOKIE)
+                .input(FoodsParadiseItems.CHOCOLATE_CHIP_COOKIE_DOUGH)
+                .input(FoodsParadiseItems.COOKIE_FORM)
+                .criterion(RecipeProvider.hasItem(FoodsParadiseItems.CHOCOLATE_CHIP_COOKIE_DOUGH), RecipeProvider.conditionsFromItem(FoodsParadiseItems.CHOCOLATE_CHIP_COOKIE_DOUGH))
+                .offerTo(exporter);
+
+
         // --- Shaped recipes --- //
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, FoodsParadiseItems.COOKIE_FORM)
                 .pattern(" X ")
@@ -48,7 +61,6 @@ public class FoodsParadiseRecipeProvider extends FabricRecipeProvider {
                 600)
                 .criterion(RecipeProvider.hasItem(Items.COCOA_BEANS), RecipeProvider.conditionsFromItem(Items.COCOA_BEANS))
                 .offerTo(exporter);
-
 
     }
 }

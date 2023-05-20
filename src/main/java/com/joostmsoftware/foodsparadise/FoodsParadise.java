@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 
+@SuppressWarnings("unused")
 public class FoodsParadise implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
@@ -24,10 +25,8 @@ public class FoodsParadise implements ModInitializer {
 		FoodsParadiseUtil.LOGGER.info("Hello Fabric world!");
 	}
 
-	public ItemGroup GROUP = FabricItemGroup.builder(FoodsParadiseUtil.ID("group"))
+	private static final ItemGroup GROUP = FabricItemGroup.builder(FoodsParadiseUtil.ID("group"))
 			.icon(() -> new ItemStack(FoodsParadiseItems.CHOCOLATE_CHIP_COOKIE))
-			.entries((displayContext, entries) -> {
-				FoodsParadiseItems.ITEMS.forEach((s, item) -> entries.add(item));
-			})
+			.entries((displayContext, entries) -> FoodsParadiseItems.ITEMS.forEach((s, item) -> entries.add(item)))
 			.build();
 }
