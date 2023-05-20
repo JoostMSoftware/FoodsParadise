@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_roasted_cocoa_beans": {
+    "has_cocoa_powder": {
       "conditions": {
         "items": [
           {
             "items": [
-              "foodsparadise:roasted_cocoa_beans"
+              "foodsparadise:cocoa_powder"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_roasted_cocoa_beans",
+      "has_cocoa_powder",
       "has_the_recipe"
     ]
   ],

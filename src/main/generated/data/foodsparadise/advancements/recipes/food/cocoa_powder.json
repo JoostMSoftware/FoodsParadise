@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crusher": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "foodsparadise:crusher"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_roasted_cocoa_beans": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "foodsparadise:roasted_cocoa_beans"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "foodsparadise:cocoa_powder"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_crusher",
+      "has_roasted_cocoa_beans",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "foodsparadise:cocoa_powder"
+    ]
+  }
+}

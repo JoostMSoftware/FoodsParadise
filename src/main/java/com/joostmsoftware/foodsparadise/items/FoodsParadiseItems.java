@@ -19,6 +19,7 @@ public class FoodsParadiseItems {
     public static Item COOKIE_FORM = new CookieFormItem(new Item.Settings());
     public static Item CRUSHER = new CrusherItem(new Item.Settings());
     public static Item WHEAT_FLOUR = new Item(new Item.Settings());
+    public static Item COCOA_POWDER = new Item(new Item.Settings());
 
     // Foods
     public static Item CHOCOLATE_CHIP_COOKIE = new FoodItem(new Item.Settings(), new Food(3, 0.2f));
@@ -48,6 +49,7 @@ public class FoodsParadiseItems {
         ITEMS.put("cookie", COOKIE);
         ITEMS.put("raw_chocolate_chip_cookie", RAW_CHOCOLATE_CHIP_COOKIE);
         ITEMS.put("roasted_cocoa_beans", ROASTED_COCOA_BEANS);
+        ITEMS.put("cocoa_powder", COCOA_POWDER);
     }
 
     public static void register() {
