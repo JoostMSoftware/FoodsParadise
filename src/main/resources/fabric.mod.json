@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "com.joostmsoftware.foodsparadise.FoodsParadise"
+    ],
+    "fabric-datagen": [
+      "com.joostmsoftware.foodsparadise.data.FoodsParadiseDatagenEntrypoint"
     ]
   },
   "mixins": [

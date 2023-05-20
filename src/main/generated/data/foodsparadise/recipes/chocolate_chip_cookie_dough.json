@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "foodsparadise:cookie_dough"
+    },
+    {
+      "item": "foodsparadise:chocolate"
+    }
+  ],
+  "result": {
+    "item": "foodsparadise:chocolate_chip_cookie_dough"
+  }
+}

@@ -25,7 +25,7 @@ public class FoodsParadise implements ModInitializer {
 	}
 
 	public ItemGroup GROUP = FabricItemGroup.builder(FoodsParadiseUtil.ID("group"))
-			.icon(() -> new ItemStack(FoodsParadiseItems.TEST_COOKIE))
+			.icon(() -> new ItemStack(FoodsParadiseItems.CHOCOLATE_CHIP_COOKIE))
 			.entries((displayContext, entries) -> {
 				FoodsParadiseItems.ITEMS.forEach((s, item) -> entries.add(item));
 			})
