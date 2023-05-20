@@ -1,11 +1,10 @@
 package com.joostmsoftware.foodsparadise.items;
 
 import com.joostmsoftware.foodsparadise.util.FoodsParadiseUtil;
-import com.joostmsoftware.joostmlib.food.Food;
-import com.joostmsoftware.joostmlib.food.FoodItem;
+import com.joostmsoftware.joostmlib.item.food.Food;
+import com.joostmsoftware.joostmlib.item.food.FoodItem;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.Item;
-import net.minecraft.item.ToolMaterials;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 
