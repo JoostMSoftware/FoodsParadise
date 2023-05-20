@@ -4,7 +4,7 @@
   "cookingtime": 300,
   "experience": 0.35,
   "ingredient": {
-    "item": "foodsparadise:chocolate_chip_cookie_dough"
+    "item": "foodsparadise:raw_chocolate_chip_cookie"
   },
   "result": "foodsparadise:chocolate_chip_cookie"
 }

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_chocolate_chip_cookie_dough": {
+    "has_raw_chocolate_chip_cookie": {
       "conditions": {
         "items": [
           {
             "items": [
-              "foodsparadise:chocolate_chip_cookie_dough"
+              "foodsparadise:raw_chocolate_chip_cookie"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_chocolate_chip_cookie_dough",
+      "has_raw_chocolate_chip_cookie",
       "has_the_recipe"
     ]
   ],

@@ -43,7 +43,7 @@ public class FoodsParadiseShapelessRecipes {
                 .criterion(RecipeProvider.hasItem(FoodsParadiseItems.CHOCOLATE), RecipeProvider.conditionsFromItem(FoodsParadiseItems.CHOCOLATE))
                 .offerTo(exporter);
 
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, FoodsParadiseItems.WHEAT_FLOWER)
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, FoodsParadiseItems.WHEAT_FLOUR)
                 .input(Items.WHEAT)
                 .input(FoodsParadiseItems.CRUSHER)
                 .criterion(RecipeProvider.hasItem(FoodsParadiseItems.CRUSHER), RecipeProvider.conditionsFromItem(FoodsParadiseItems.CRUSHER))

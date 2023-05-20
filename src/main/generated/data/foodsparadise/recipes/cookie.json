@@ -4,7 +4,7 @@
   "cookingtime": 300,
   "experience": 0.35,
   "ingredient": {
-    "item": "foodsparadise:cookie_dough"
+    "item": "foodsparadise:raw_cookie"
   },
   "result": "foodsparadise:cookie"
 }

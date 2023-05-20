@@ -26,7 +26,7 @@ public class FoodsParadiseShapedRecipes {
                 .input('X', Items.SUGAR)
                 .input('Y', Items.EGG)
                 .input('Z', Items.MILK_BUCKET)
-                .input('A', FoodsParadiseItems.WHEAT_FLOWER)
+                .input('A', FoodsParadiseItems.WHEAT_FLOUR)
                 .criterion(RecipeProvider.hasItem(Items.IRON_INGOT), RecipeProvider.conditionsFromItem(Items.IRON_INGOT))
                 .offerTo(exporter);
     }

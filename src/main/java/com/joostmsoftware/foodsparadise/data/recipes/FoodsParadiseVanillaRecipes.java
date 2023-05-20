@@ -20,20 +20,20 @@ public class FoodsParadiseVanillaRecipes {
                 .criterion(RecipeProvider.hasItem(Items.COCOA_BEANS), RecipeProvider.conditionsFromItem(Items.COCOA_BEANS))
                 .offerTo(exporter);
 
-        CookingRecipeJsonBuilder.createSmelting(Ingredient.ofItems(FoodsParadiseItems.COOKIE_DOUGH),
+        CookingRecipeJsonBuilder.createSmelting(Ingredient.ofItems(FoodsParadiseItems.RAW_COOKIE),
                         RecipeCategory.FOOD,
                         FoodsParadiseItems.COOKIE,
                         0.35f,
                         300)
-                .criterion(RecipeProvider.hasItem(FoodsParadiseItems.COOKIE_DOUGH), RecipeProvider.conditionsFromItem(FoodsParadiseItems.COOKIE_DOUGH))
+                .criterion(RecipeProvider.hasItem(FoodsParadiseItems.RAW_COOKIE), RecipeProvider.conditionsFromItem(FoodsParadiseItems.RAW_COOKIE))
                 .offerTo(exporter);
 
-        CookingRecipeJsonBuilder.createSmelting(Ingredient.ofItems(FoodsParadiseItems.CHOCOLATE_CHIP_COOKIE_DOUGH),
+        CookingRecipeJsonBuilder.createSmelting(Ingredient.ofItems(FoodsParadiseItems.RAW_CHOCOLATE_CHIP_COOKIE),
                         RecipeCategory.FOOD,
                         FoodsParadiseItems.CHOCOLATE_CHIP_COOKIE,
                         0.35f,
                         300)
-                .criterion(RecipeProvider.hasItem(FoodsParadiseItems.CHOCOLATE_CHIP_COOKIE_DOUGH), RecipeProvider.conditionsFromItem(FoodsParadiseItems.CHOCOLATE_CHIP_COOKIE_DOUGH))
+                .criterion(RecipeProvider.hasItem(FoodsParadiseItems.RAW_CHOCOLATE_CHIP_COOKIE), RecipeProvider.conditionsFromItem(FoodsParadiseItems.RAW_CHOCOLATE_CHIP_COOKIE))
                 .offerTo(exporter);
     }
 }
