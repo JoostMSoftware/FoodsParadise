@@ -1,8 +1,6 @@
 package com.joostmsoftware.foodsparadise.data;
 
-import com.joostmsoftware.foodsparadise.data.provider.FoodsParadiseLanguageProvider;
-import com.joostmsoftware.foodsparadise.data.provider.FoodsParadiseModelProvider;
-import com.joostmsoftware.foodsparadise.data.provider.FoodsParadiseRecipeProvider;
+import com.joostmsoftware.foodsparadise.data.providers.*;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 

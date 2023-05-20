@@ -1,4 +1,4 @@
-package com.joostmsoftware.foodsparadise.data.provider;
+package com.joostmsoftware.foodsparadise.data.providers;
 
 import com.joostmsoftware.foodsparadise.data.recipes.*;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -17,13 +17,10 @@ public class FoodsParadiseRecipeProvider extends FabricRecipeProvider {
         // --- Shapeless recipes --- //
         FoodsParadiseShapelessRecipes.initialiseRecipes(exporter);
 
-
         // --- Shaped recipes --- //
         FoodsParadiseShapedRecipes.initialiseRecipes(exporter);
 
-
         // --- Vanilla cooking recipes --- //
         FoodsParadiseVanillaRecipes.initialiseRecipes(exporter);
-
     }
 }

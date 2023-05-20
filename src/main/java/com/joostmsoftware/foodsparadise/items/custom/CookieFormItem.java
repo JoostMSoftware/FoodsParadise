@@ -1,4 +1,4 @@
-package com.joostmsoftware.foodsparadise.items;
+package com.joostmsoftware.foodsparadise.items.custom;
 
 import com.joostmsoftware.joostmlib.item.DamageableCraftingItem;
 import org.jetbrains.annotations.NotNull;

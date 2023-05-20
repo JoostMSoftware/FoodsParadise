@@ -1,4 +1,4 @@
-package com.joostmsoftware.foodsparadise.data.provider;
+package com.joostmsoftware.foodsparadise.data.providers;
 
 import com.joostmsoftware.foodsparadise.items.FoodsParadiseItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;

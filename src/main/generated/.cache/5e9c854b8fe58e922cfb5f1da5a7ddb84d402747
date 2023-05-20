@@ -1,4 +1,4 @@
-// 1.19.4	2023-05-20T17:11:07.2712652	Foods Paradise/Recipes
+// 1.19.4	2023-05-20T17:36:16.5199209	Foods Paradise/Recipes
 f8ea1dd620ddcd67292839677235cf1b9f96f561 data\foodsparadise\advancements\recipes\food\cookie.json
 a0958aa6038fec8bb0b2dc3feff2e653b1dcd02e data\foodsparadise\advancements\recipes\misc\cookie_form.json
 662d6da45656a3e164796782df958a803f3e1329 data\foodsparadise\advancements\recipes\food\raw_cookie.json
@@ -14,9 +14,9 @@ d4cbf2391c74a4988205d7b1caa074ca0266f13b data\foodsparadise\advancements\recipes
 90a667bbca96680e846417fe065d892b6ce5b386 data\foodsparadise\advancements\recipes\food\roasted_cocoa_beans.json
 9b41dbd3b33dc68173c975925919829492d32a40 data\foodsparadise\recipes\roasted_cocoa_beans.json
 33087ff13b2714be721f6baa6e1a90a4aeb9be76 data\foodsparadise\advancements\recipes\food\wheat_flower.json
+88850df3096709caf3257fbf6043ac8c66fb8510 data\foodsparadise\advancements\recipes\food\chocolate.json
 775cbc41b4407387ed35723746803a67dcd43ef4 data\foodsparadise\recipes\chocolate_chip_cookie_dough.json
 6975ed60c5c6b49a6733ef062ced50dcbb0579fa data\foodsparadise\recipes\raw_cookie.json
-88850df3096709caf3257fbf6043ac8c66fb8510 data\foodsparadise\advancements\recipes\food\chocolate.json
 b2365e8a46045ab99f8f234b85a122d61b3155dd data\foodsparadise\advancements\recipes\food\chocolate_chip_cookie_dough.json
 6e97d50711f26174bfe5df9da59f22ee1b7ce207 data\foodsparadise\recipes\chocolate_bits.json
 89a48b2b7d2f46df32601d5af537bdf2e6315b30 data\foodsparadise\recipes\chocolate_chip_cookie.json

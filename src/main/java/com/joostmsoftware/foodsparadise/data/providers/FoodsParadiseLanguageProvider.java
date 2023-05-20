@@ -1,4 +1,4 @@
-package com.joostmsoftware.foodsparadise.data.provider;
+package com.joostmsoftware.foodsparadise.data.providers;
 
 import com.joostmsoftware.foodsparadise.items.FoodsParadiseItems;
 import com.joostmsoftware.foodsparadise.util.FoodsParadiseUtil;
