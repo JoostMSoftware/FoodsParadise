@@ -1,4 +1,4 @@
-# Foods Paradise
+<img src="src/main/resources/assets/foodsparadise/foodsparadise_logo.png">
 
 ## Summary
 
