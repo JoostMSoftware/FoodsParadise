@@ -1,5 +1,7 @@
 package com.joostmsoftware.foodsparadise;
 
+import com.joostmsoftware.foodsparadise.block.FoodsParadiseBlocks;
+import com.joostmsoftware.foodsparadise.block.entity.FoodsParadiseBlockEntities;
 import com.joostmsoftware.foodsparadise.items.FoodsParadiseItems;
 import com.joostmsoftware.foodsparadise.util.FoodsParadiseUtil;
 import net.fabricmc.api.ModInitializer;
@@ -21,6 +23,10 @@ public class FoodsParadise implements ModInitializer {
 		// Proceed with mild caution.
 
 		FoodsParadiseItems.register();
+		FoodsParadiseBlocks.register();
+
+
+		FoodsParadiseBlockEntities.registerBlockEntities();
 
 		FoodsParadiseUtil.LOGGER.info("Hello Fabric world!");
 	}
